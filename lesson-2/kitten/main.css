@@ -1,0 +1,46 @@
+.count, #title {
+    font-size: 2em;
+}
+.picture {
+    width: 75%;
+    margin: 5px;
+}
+.container { 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: 50% auto;
+}
+
+.list-container {
+    grid-column-start: 1;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list > li {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.picture-area {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.edit {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.form {
+    grid-row-start: 2;
+}
+
+
